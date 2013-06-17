@@ -36,10 +36,6 @@ header .logocontainer img {
 }
 
 
-header .navbar{
-	
-}
-
 #navlinks {
 	margin: 0 auto;
 	clear: both;
@@ -110,10 +106,6 @@ header .navbar{
 }
 
 
-.maincontent .sidebar .customer_reviews {
-
-}
-
 h3{
 	margin: 0px;
 	padding-bottom: 15px; 
@@ -134,7 +126,6 @@ h3{
 	height: 40px;
 }
 
-}
 .maincontent .sidebar .customer_reviews .review_container .bubble {
 	width: 190px;
 	min-height: 40px;
@@ -167,8 +158,6 @@ h3{
 	border-radius: 5px;
 	border: 1px solid #bbb8a4;
 }
-
-
 
 
 .maincontent .sidebar .related_products {
