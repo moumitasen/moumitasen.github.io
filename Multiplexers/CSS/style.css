@@ -140,13 +140,28 @@ h3{
 	left: 9px;
 	display: block;
 	width: 0;
-	z-index: 1;
-	border-color: rgba(255, 0, 0, 0) #fff;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent; 
+	border-right:15px solid #bbb8a4; 
+	/*border-color: rgba(255, 0, 0, 0) #fff;
 	border-style: solid;
-	border-width: 15px 15px 15px 0;
+	border-width: 15px 15px 15px 0;*/
 }
 
-.comment{
+.maincontent .sidebar .customer_reviews .pointer:after {
+	content: '';
+	position:absolute;
+	top:-13px;
+	left:1px;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 13px solid #fff;
+}
+
+.bubble .comment{
 	width: 175px;
 	float: right;
 	background-color: #fff;
@@ -157,6 +172,7 @@ h3{
 	line-height: 14px;
 	border-radius: 5px;
 	border: 1px solid #bbb8a4;
+	z-index: 1;
 }
 
 
