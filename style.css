@@ -33,18 +33,33 @@ h4 {
 	font-size: 15px;
 }
 
-table {
-	margin: auto;
-}
-
-
-td {
-	color: rgb(153, 153, 153);
-}
-
-th {
-	color: rgb(39,39,39);
-	font-size: 15px;
-	padding: 0 9px;
+nav ul{
+	width: 372px;
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0 auto;
+	clear: both;
+	padding: 0px;
 
 }
+
+
+nav ul a{
+	transition: all 100ms ease-in; /*can put "background-color instead of all"*/
+	color: #ffffff;
+	float: left;
+	width: 100px;
+	margin-left: 10px;
+	background-color: #aaa;
+	display: block;
+	padding: 7px;
+	text-decoration: none;
+	border-radius: 5px;
+
+}
+
+nav ul a:hover{
+	background-color:#ddd;
+	color: black;
+}
+
