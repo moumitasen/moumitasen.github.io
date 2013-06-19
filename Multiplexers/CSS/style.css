@@ -137,31 +137,31 @@ h3{
 	position: relative;
 	float: left;
 	top: 5px;
-	left: 9px;
+	left: 2px;
 	display: block;
 	width: 0;
 	height: 0;
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent; 
-	border-right:15px solid #fff;
+	border-right:15px solid #bbb8a4;
 }
-	 /*#bbb8a4; 
+	 /*; 
 	border-color: rgba(255, 0, 0, 0) #fff;
 	border-style: solid;
-	border-width: 15px 15px 15px 0;
-}
+	border-width: 15px 15px 15px 0;*/
+
 
 .maincontent .sidebar .customer_reviews .pointer:after {
 	content: '';
 	position:absolute;
 	top:-13px;
-	left:1px;
+	left:4px;
 	width: 0;
 	height: 0;
 	border-top: 13px solid transparent;
 	border-bottom: 15px solid transparent;
 	border-right: 13px solid #fff;
-}*/
+}
 
 .bubble .comment{
 	width: 175px;
