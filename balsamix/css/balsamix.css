@@ -1,6 +1,6 @@
 
 body {
-	margin: 0;
+	margin: 0px;
 	background-color:#aa9f9f;
 
 }
@@ -26,8 +26,8 @@ body {
 
 #navlinks ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 #navlinks ul li {
