@@ -154,13 +154,13 @@ h3{
 .maincontent .sidebar .customer_reviews .pointer:after {
 	content: '';
 	position:absolute;
-	top:-13px;
+	top:-14px;
 	left:4px;
 	width: 0;
 	height: 0;
-	border-top: 13px solid transparent;
+	border-top: 14px solid transparent;
 	border-bottom: 15px solid transparent;
-	border-right: 13px solid #fff;
+	border-right: 14px solid #fff;
 }
 
 .bubble .comment{
