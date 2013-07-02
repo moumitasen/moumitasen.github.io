@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+}
+
+header{
+	overflow: hidden;
+	background-color: #fff;
+	color: #000;
+
+}
+
+.logo_container {
+	overflow: hidden;
+	width: 260px;
+	float: left;
+}
+
+.logo_container img {
+	float: left;
+	width: 60px;
+
+}
+
+.logo_container h1 {
+	font-size: 40px;
+	float: right;
+	margin:0;
+}
+
+nav{
+	float: right;
+}
+
+nav ul li {
+	display: inline;
+}
+.container {
+	width: auto;
+	margin: 0 auto;
+	clear: both;
+}
+
+.main {
+	background-image: url(images/hero_shot.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	padding:100px 50px;
+
+}
+
+.left_box {
+	width: 450px;
+	padding: 20px;
+	background-color: rgba(0,0,0, 0.2);
+	text-align: center;
+	border-radius: 5px;
+}
+
+.left_box h1 {
+	font-size: 35px;
+	
+}
+
+.left_box h4{
+	
+	
+}
+.review {
+	text-align: center;
+	background-color: #ddd;
+}
+
