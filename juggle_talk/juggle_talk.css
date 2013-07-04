@@ -109,7 +109,7 @@ nav ul a{
 .sidebar_left ul{
 	list-style-type: none;
 	position: relative;
-	top: -20px;
+	/*top: -20px;*/
 }
 .sidebar_left img {
 	position: relative;
