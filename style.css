@@ -1,6 +1,6 @@
 
 body{
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   background-image: url(http://www.advoteamcourage.com/wp-content/uploads/2012/12/website-background-2.jpg);
   text-align: center;
   color: rgb(153, 153, 153);
@@ -9,14 +9,22 @@ body{
 
 .container {
 	width:595px;
-	margin:50px auto;
+	margin:40px auto;
 	padding: 26px;
-	background-color: rgba(87, 87, 87, 0.7);
+	/*background-color: rgba(87, 87, 87, 0.7);*/
 }
 
 .container img {
 	width: 200px;
-	border: solid #ddd 1px;
+	border-radius: 50%;
+
+}
+h1 {
+	font-size: 60px;
+	font-family: 'Oregano', sans-serif;
+	color: #fff;
+	font-weight: normal;
+	margin: 0px;
 }
 
 a {
@@ -25,8 +33,9 @@ a {
 }
 
 h3 {
-	color: rgb(33,33,33);
-	font-size: 20px;
+	color: rgb(215,215,215);
+	font-size: 35px;
+	font-family: 'Oregano';
 }
 
 h4 {
