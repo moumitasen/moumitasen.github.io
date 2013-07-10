@@ -1,3 +1,6 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
 body{
 	margin: 0;
 	font-family: georgia, lucida, serif;
@@ -212,7 +215,7 @@ nav ul a:active {
 }
 
 .ub_wrapper{
-	width: 375px;
+	width: 402px;
 	overflow: hidden;
 	float: left;
 	margin-right: 37px;
@@ -240,6 +243,7 @@ nav ul a:active {
 	width: 300px;
 	float: right;
 	line-height: 1.5;
+	margin-left: 12px;
 
 }
 
