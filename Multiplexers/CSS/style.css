@@ -136,32 +136,16 @@ h3{
 .maincontent .sidebar .customer_reviews .pointer {
 	position: relative;
 	float: left;
-	top: 5px;
-	left: 2px;
+	top: 11px;
+	left: 7px;
 	display: block;
 	width: 0;
 	height: 0;
-	border-top: 15px solid transparent;
-	border-bottom: 15px solid transparent; 
-	border-right:15px solid #bbb8a4;
+	border-top: 9px solid transparent;
+	border-bottom: 9px solid transparent; 
+	border-right:9px solid #fff;
 }
-	 /*; 
-	border-color: rgba(255, 0, 0, 0) #fff;
-	border-style: solid;
-	border-width: 15px 15px 15px 0;*/
 
-
-.maincontent .sidebar .customer_reviews .pointer:after {
-	content: '';
-	position:absolute;
-	top:-14px;
-	left:4px;
-	width: 0;
-	height: 0;
-	border-top: 14px solid transparent;
-	border-bottom: 15px solid transparent;
-	border-right: 14px solid #fff;
-}
 
 .bubble .comment{
 	width: 175px;
