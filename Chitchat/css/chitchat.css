@@ -300,20 +300,36 @@ label{
 	clear: both;
 }
 
+.class_header{
+	padding-top:40px;
+}
+
 .class_content{
-	margin:	;
-	padding:30px 0px;
+	margin:	20px auto;
+	padding:30px 20px;
 	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
+	overflow:hidden;
 
 }
-.class_content h2{
-	font size:6;
+.class_image{
+	float: left;
+}
+.class_descr{
+	float:right;
+	width: 84%;
+}
+
+.class_descr h3{
+	font size:16px;
 	color:#da8044;
 	font-weight: normal;
+	margin-bottom: 20px;
 }
 
-.class_content h3{
-	font size:6;
+.class_descr h4{
+	font size:12px;
 	color:#da8044;
 	font-weight: normal;
 }
