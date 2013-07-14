@@ -19,6 +19,7 @@ header{
 	left: 0px;
 	background-color: rgba(255,255,255, 1);
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+	z-index: 2;
 
 }
 
@@ -50,7 +51,7 @@ nav{
 	float: right;
 	font-family: 'Lato', sans-serif;
 	margin-top: 10px;
-	width: 326px;
+	width: 377px;
 	/*margin-right: 115px;*/
 }
 
@@ -105,12 +106,13 @@ nav ul a:active {
 .std_width {
 	width: 960px;
 	margin: 0 auto;
+	clear: both;
 
 }
 
 
 .left_box {
-	width: 45%;
+	width: 48%;
 	padding: 20px;
 	background-color: rgba(200,200,200,0.5);;
 	text-align: center;
@@ -124,6 +126,7 @@ nav ul a:active {
 	color: rgb(58, 58, 58);
 	margin-bottom: 15px;
 	line-height: 1.5;
+	word-spacing: 7px;
 }
 
 .left_box h4{
@@ -134,34 +137,63 @@ nav ul a:active {
 	font-size: 18px;
 	
 }
-
-
-.trial_class_button {
-  width: 60%;
-  height: 50px;
-  padding: 0;
-  font-family: 'Lato',helvetica;
-  font-size: 19px;
-  color: white;
-  text-align: center;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-  background: #e67e22;
-  border: 0;
-  border-bottom: 2px solid #da751c;
-  cursor: pointer;
-  -webkit-box-shadow: inset 0 -2px #da751c;
-  box-shadow: inset 0 -2px #da751c;
-  border-radius: 5px;
+.btn-warning{
+	background-image: linear-gradient(to bottom, #FF9757, #ea7c38);
+	font-family: sans-serif;
+	border: 1px solid rgba(0,0,0, 0.1);
+	border-radius: 0px;
+	color: #fff;
 }
 
-.trial_class_button:hover {
-  top: 1px;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  background-color: #FF9537;
+.btn-large {
+	/*word-spacing: 3px;*/
+	letter-spacing: 1.5px;
+	text-shadow:2px -1px 0px rgba(0, 0, 0, 0.4);
+
 }
 
+.btn-mini{
+	/*word-spacing: 2px;*/
+	/*letter-spacing: 1px;*/
+	padding:3px 5px;
+	font-size: 14px;
+	text-shadow:0px -1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn-warning:hover{
+	background-color:#E76600;
+	background-image: linear-gradient(to bottom, #ea7c38, #E76600);
+
+}
+
+
+.modal-header {
+	background-color: rgb(241, 230, 208);
+	border-radius: 6px 6px 0 0;
+	border-bottom: 2px solid rgba(0,0,0, 0.1);
+}
+
+.modal-header h3{
+	font-family: sans-serif;
+	font-weight: normal;
+	color: rgb(74, 74, 74);
+}
+
+label{
+	font-family: sans-serif;
+	font-size: 17px;
+	margin-bottom: 5px;
+	color: rgb(74, 74, 74);
+}
+
+.control-group input {
+	padding: 14px;
+}
+
+.modal-footer{
+	background-color: rgb(238, 229, 214);
+	border-top: 2px solid rgba(0,0,0, 0.1);
+}
 
 .review {
 	text-align: center;
@@ -189,7 +221,6 @@ nav ul a:active {
 .usp{
 	width: auto;
 	background-color: rgb(243, 239, 231);
-	/*background-image: url(../images/dots.png);*/
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: rgb(54, 54, 54);
@@ -201,8 +232,6 @@ nav ul a:active {
 	width: 960px;
 	margin: 0 auto;
 	overflow: hidden;
-	/*background-color: red;*/
-
 }
 
 .usp_content h2 {
@@ -211,6 +240,7 @@ nav ul a:active {
 	font-size: 28px;
 	text-align: center;
 	margin-bottom: 50px;
+	word-spacing: 7px;
 
 }
 
@@ -251,16 +281,42 @@ nav ul a:active {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-size: 22px;
-	/*padding-top: 20px;*/
+	word-spacing: 5px;
 
 }
 
 .user_benefit p{
 	padding-top: 10px;
+	word-spacing: 3px;
 }
 
+/*Classes*/
 
 
+.container_class{
+	background-color: rgb(243, 239, 231);
+	width: 100%;
+	margin: 71px auto;
+	clear: both;
+}
+
+.class_content{
+	margin:	;
+	padding:30px 0px;
+	background-color: #fff;
+
+}
+.class_content h2{
+	font size:6;
+	color:#da8044;
+	font-weight: normal;
+}
+
+.class_content h3{
+	font size:6;
+	color:#da8044;
+	font-weight: normal;
+}
 
 
 

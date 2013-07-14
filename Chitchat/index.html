@@ -12,28 +12,61 @@
 
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oregano"/>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/chitchat.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="css/colorbox.css" /> -->
 </head> 
 
 <body>
 	<header>
-		<div class="logo_container">
+		<div class="logo_container"><a href="index.html">
 			<img src ="images/chitchat2.png" />
-			<h1>Chitchat</h1>
+			<h1>Chitchat</h1></a>
 		</div>
 			
 		<nav>
 			<ul>
-				<li><a href="#">Classes</a></li>
+				<li><a href="classes.html">Classes</a></li>
 				<li><a href="#">Pricing</a></li>
-				<li><a href="#">Reviews</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#contactModal" data-toggle="modal">Contact</a></li>
+				<li> <a role="button" class="btn btn-warning btn-mini" data-toggle="modal" style="text-decoration:none" data-target="#myModal1" href="modal.html"> Free Trial Class</a></li>
 			</ul>
 		</nav>
 	</header>
 	
+
+
+		<!-- Modal for Contact -->
+		<div id="contactModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true" style="width:415px; margin-left:-230px">
+			  <div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			    <h3 id="contactModalLabel" style="text-align:center">Have a Question?</h3>
+			  </div>
+			  <div class="modal-body" style="text-align:left">
+			    <form class="form-horizontal" style="margin-left:55px">
+				 
+				    <label>Your Full Name</label> 
+				    <div class="control-group">
+				    	<input type="text" placeholder="First & Last Name" class="input-xlarge">
+					</div>	
+				    
+				    <label>Your Contact</label>
+				   	<div class="control-group">
+				    	<input type="email" placeholder="Email"  class="input-xlarge">
+					</div>
+					<label>Your Question</label>
+					<div class="control-group">
+				    	<textarea rows="3" style="width:270px" placeholder="Type here..."></textarea>
+				    </div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+			    <button class="btn btn-warning" style="position:relative; right:160px;" data-dismiss="modal" aria-hidden="true">Submit</button>
+			  </div>
+		</div>
+
+
+				
 
 	<div class="container">
 		<section class="main">
@@ -41,29 +74,98 @@
 			<div class="left_box">
 				<h1>Your Personal <br>English Teacher Online </h1>
 				<h4>Have personalized classes with a <br>professional, native English speaker on Skype. <br>Engage in conversations on topics that interest you. Practice speaking, learn new vocabulary and improve your listening- all while you have fun conversations!</h4>
-
-				<!-- 
-				<h1>Learn English online through real conversations</h1>
-
-				<h4>Improve your speaking skills, learn new vocabulary, sharpen your listening skills and more - all through personalized one-on-one classes with a native English speaker.Chitchat is your Personal English Tutor online.</h4>!-->
-
-			 <a><input type="submit" value="Get your FREE Trial Class" class="trial_class_button"> </a>
+				<a href="#myModal" role="button" class="btn btn-warning btn-large" data-toggle="modal" style="text-decoration:none">Get your FREE Trial Class</a>
+			 
+			<!-- Modal for Trial Class -->
+				<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-header">
+				    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				    <h3 id="myModalLabel">Sign up for Trial Class</h3>
+				  </div>
+				  <div class="modal-body" style="text-align:left">
+				    <form class="form-horizontal" style="margin-left:50px">
+					 
+					    <label>Full Name</label> 
+					    <div class="control-group">
+					    	<input type="text" placeholder="First Name" style="margin-right:10px">
+					    	<input type="text" placeholder="Last Name">
+						</div>	
+					    <!-- <span class="help-block">Example block-level help text here.</span> -->
+					    <label>Contact</label>
+					   	<div class="control-group">
+					    	<input type="email" placeholder="Email" style="margin-right:10px">
+					    	<input type="text" placeholder="Skype username">
+						</div>
+						<label>Current Location</label>
+						<div class="control-group">
+					    	<input type="text" placeholder="City" style="margin-right:10px">
+					    	<input type="text" placeholder="Country">
+					    </div>
+					    <label>Your Availabity- Option 1 <span style="font-size:14px; font-style:italic; margin-left:30px">(In your local time)</span></label>
+					    <div class="control-group">
+						    <input type="text" placeholder="Month &#38; day (e.g. Aug 1)" style="margin-right:10px">
+						    <input  type="text" placeholder="Time range (e.g 3pm-5pm)">  
+						</div>
+						<label>Your Availabity- Option 2<span style="font-size:14px; font-style:italic; margin-left:31px">(In your local time)</span></label>
+						<div class="control-group">
+						    <input type="text" placeholder="Month &#38; day (e.g. Aug 2)" style="margin-right:10px">
+						    <input  type="text" placeholder="Time range (e.g 10am-2pm")>  
+						</div>
+					</form>
+				 </div>
+				 <div class="modal-footer">
+				    	<button class="btn btn-warning" style="position:relative; right:235px;" data-dismiss="modal" aria-hidden="true">Submit</button>
+				 </div>
+				</div>
 
 			</div> 
-			</div>
+		</div>
 
 		</section>
 		
 		<section class="review">
-			<h3>"I love being able to take classes from home and get individual attention on specific areas I need help with."</h3>
-			<img  width="65px" height="65px" src= "images/claudia.png">
-			<p> Claudia Garcia, Financial Expert </p>
-			<p>Sao Paulo, Brazil</p>
+			<div id="myCarousel" class="carousel slide" style="width: 1100px; margin: 0 auto">
+  				<div class="carousel-inner">
+
+    				<div class="active item">
+						<div class="review_content">
+							<h3>"I love being able to take classes from home and get individual attention on specific areas I need help with."</h3>
+							<img  width="65px" height="65px" src= "images/claudia.png">
+							<p> Claudia Garcia, Financial Expert </p>
+							<p>Sao Paulo, Brazil</p>
+						</div>
+					</div>
+
+
+					<div class="item">
+						<div class="review_content">
+							<h3>“The classes are incredible! They are fun and I am never bored, unlike taking classes in an English school.”</h3>
+							<img  width="65px" height="65px" src= "images/claudia.png">
+							<p> Maria Belen Martin, Fashion Designer </p>
+							<p>Argentina</p>
+						</div>
+					</div>
+
+
+					<div class="item">
+						<div class="review_content">
+							<h3>"I got great practice with interviewing and learning business english"</h3>
+							<img  width="65px" height="65px" src= "images/claudia.png">
+							<p> Kei Nakano, Strategy Consultant </p>
+							<p>Tokyo, Japan</p>
+						</div>
+					</div>
+				</div>
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev" style="text-decoration:none; top:60%; font-family:lucida; font-size:33px; background-color:#CECECE">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next" style="text-decoration:none; top:60%; font-family:lucida; font-size:33px; background-color:#CECECE">&rsaquo;</a>
+		</div>
+
 		</section>
+
 
 		<section class="usp">
 			<div class="usp_content">
-				<h2>  What  makes  Chitchat  different </h2>
+				<h2>  What  makes  Chitchat  different?</h2>
 
 				<div class="ub_wrapper">
 					<div class="icon"><img src="images/flexibility.png"></div>
@@ -125,13 +227,27 @@
 
 		</section>  -->
 
+		<footer> <hr> &#169 2013 Chitchat </footer>
+
 			
 	</div>
 
-	<!--<script src="js/jquery.js"></script>
-	<script src="js/jquery.colorbox-min.js"></script>
-	<script src="js/chitchat.js"></script>-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"> </script>
+	<script src="js/custom.js"></script>
 
+	<script>
+	  $(document).ready(function(){
+	    $('.carousel').carousel({
+	      interval: 9000
+	    });
+	  });
+	</script>
+<!-- 
+
+	 <script src="js/jquery.colorbox-min.js"></script>
+	 <script src="js/chitchat.js"></script>
+ -->
 
 
 	
