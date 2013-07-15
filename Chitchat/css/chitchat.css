@@ -325,7 +325,7 @@ footer{
 
 .class_content{
 	margin:	20px auto;
-	padding:30px 20px;
+	padding:25px 15px;
 	background-color: #fff;
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
@@ -337,7 +337,7 @@ footer{
 }
 .class_descr{
 	float:right;
-	width: 84%;
+	width: 83%;
 }
 
 .class_descr h3{
@@ -354,6 +354,14 @@ footer{
 	font-weight: normal;
 	line-height: 1.5;
 }
+
+.class_descr ul {
+	list-style: square;
+	list-style-position:inside;
+	padding: 0px;
+	margin: 0px;
+}
+
 
 
 
