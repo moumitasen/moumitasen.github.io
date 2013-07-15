@@ -91,6 +91,7 @@ nav ul a:active {
 	width: 100%;
 	margin: 71px auto;
 	clear: both;
+	margin-bottom: 0px;
 }
 .main {
 	background-image: url(../images/hero_shot2.jpg);
@@ -290,14 +291,17 @@ label{
 	word-spacing: 3px;
 }
 
+footer{
+	padding: 20px;
+}
+
 /*Classes*/
 
 
 .container_class{
 	background-color: rgb(243, 239, 231);
-	width: 100%;
-	margin: 71px auto;
-	clear: both;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+	padding-bottom: 30px;
 }
 
 .class_header{
@@ -323,14 +327,14 @@ label{
 
 .class_descr h3{
 	font size:16px;
-	color:#da8044;
+	color:rgb(218, 128, 68);
 	font-weight: normal;
 	margin-bottom: 20px;
 }
 
 .class_descr h4{
 	font size:12px;
-	color:#da8044;
+	color:rgb(51, 51, 51);
 	font-weight: normal;
 }
 
