@@ -362,6 +362,13 @@ footer{
 	margin: 0px;
 }
 
+.class_image{
+	width: 130px;
+	height: 130px;
+	background-image: url("../images/grammar.jpg");
+	background-size:cover; 
+}
+
 body .modal{
 	width:415px; 
 	margin-left:-230px
