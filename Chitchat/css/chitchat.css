@@ -306,6 +306,7 @@ footer{
 
 .class_header{
 	padding-top:40px;
+
 }
 
 .class_header h2{
@@ -314,11 +315,15 @@ footer{
 	color:rgb(58, 58, 58);
 	font-weight: normal;
 	margin-bottom: 20px;
+	/*background-color: rgba(255,255,255,0.8);
+	padding: 8px;
+	width: 14%;
+	text-align: center;*/
 }
 
 .class_header h3{
 	font-size: 18px;
-	color:rgb(51, 51, 51);
+	color:rgb(65, 65, 65);
 	font-weight: normal;
 }
 
@@ -350,7 +355,7 @@ footer{
 
 .class_descr h4{
 	font size:12px;
-	color:rgb(54, 54, 54);
+	color: #555555;
 	font-weight: normal;
 	line-height: 1.5;
 }
@@ -365,16 +370,65 @@ footer{
 .class_image{
 	width: 130px;
 	height: 130px;
-	background-image: url("../images/grammar.jpg");
-	background-size:cover; 
 }
 
-body .modal{
-	width:415px; 
-	margin-left:-230px
+/*Pricing Page*/
+.pricing_container {
+	overflow:hidden;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-family: georgia;
+	color: rgb(77, 77, 77);
+
 }
 
 
+.pricing_container .pricing_box {
+	float:left;
+	width:293px;
+	height: 300px;
+	margin-right: 40px;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	box-shadow: 1px 1px 8px  rgba(0,0,0,0.3)
+}
+.pricing_container .pricing_box:last-child {
+	margin-right: 0px;
+}
+
+.pricing_box h2{
+	font-family: 'Lato', sans-serif;
+	font-size:22px;
+	font-weight: normal;
+	margin-bottom: 15px;
+	background-color: rgba(200,200,200,0.5);
+	width: 100%;
+	padding: 15px 5px;
+	box-shadow: 1px 1px 3px  rgba(0,0,0,0.3)
+}
+
+.pricing_box h1{
+	color:rgb(218, 128, 68);
+	padding:10px 0px;
+	font-family: 'Lato', sans-serif;
+	font-size: 35px;
+}
+
+.pricing_box h3{
+	color:#555555;
+	padding:8px 0px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.pricing_box p{
+	padding: 25px;
+	font-size: 16px;
+	color: #555555;
+	line-height: 1.5;
+}
 
 
 
