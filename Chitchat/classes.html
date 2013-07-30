@@ -9,19 +9,19 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-
+	<link rel="shortcut icon" href="images/favicon.png" type="image/png" />
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oregano"/>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/chitchat.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="css/colorbox.css" /> -->
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 </head> 
 
 <body>
 	<header>
 		<div class="logo_container"><a href="index.html">
-			<img src ="images/chitchat2.png" />
+			<img src ="images/chitchat.png" />
 			<h1>Chitchat</h1></a>
 		</div>
 			
@@ -29,8 +29,8 @@
 			<ul>
 				<li><a href="classes.html">Classes </a></li>
 				<li><a href="pricing.html">Pricing</a></li>
-				<li><a data-toggle="modal" href="contact_modal.html" >Contact</a></li>
-				<li><a role="button" class="btn btn-warning btn-mini" data-toggle="modal" style="text-decoration:none" href="modal.html"> Free Trial Class</a></li>
+				<li><a class="fancybox fancybox.iframe" href="http://moumita.wufoo.com/forms/m7x4z5/" data-fancybox-width="400" data-fancybox-height="430" id="wufoo-form" >Contact</a></li>
+				<li><a role="button" class="fancybox fancybox.iframe btn btn-warning btn-mini" data-fancybox-width="600" data-fancybox-height="900" id="wufoo-form" href="http://moumita.wufoo.com/forms/z7x4m1"> Free Trial Class</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -45,7 +45,7 @@
 
 				<div class="class_header">
 					<h2>Classes</h2>
-					<h3>All classes are held online on Skype and are personalized to your requirements.</h3>
+					<h3>All classes are held online through Skype and are personalized to your requirements. You will be emailed all class materials and exercises used during the class in an organized pdf handout.</h3>
 				</div>
 				
 			</div>
@@ -98,7 +98,7 @@
 
 			
 			<div class="class_content std_width">
-				<img class="class_image" src="images/toefl.jpg" alt="TOEFL/IELTS">
+				<img class="class_image" src="images/toefl1.jpg" alt="TOEFL/IELTS">
 				<div class="class_descr">
 					<h3>Prepare for TOEFL/IELTS</h3>
 					<h4>
@@ -146,7 +146,25 @@
 
 		</div>
 
-		<footer>  &#169 2013 Chitchat </footer>
+		<div class="std_width">
+			<footer> 
+
+				<ul> 
+					
+					<li><a href="about.html">About </a>|</li>
+					<li><a class="fancybox fancybox.iframe" href="http://moumita.wufoo.com/forms/m7x4z5/" data-fancybox-width="400" data-fancybox-height="430" id="wufoo-form" >Contact</a>|</li>
+					<li><a href="classes.html">Classes </a>|</li>
+					<li><a href="pricing.html">Pricing </a>|</li>
+					<li><a href="teacher.html">Teach</a>|</li>
+					<li><a class="fancybox fancybox.iframe" href="privacy.html" data-fancybox-width="600" data-fancybox-height="600">Terms & Policy</a></li>
+				</ul>
+				<hr>
+				
+
+				<p>&#169 2013 Chitchat. All Rights Reserved.</p>
+				<p>Use of this website constitutes acceptance of our Terms and Privacy Policy. </p>
+			</footer>
+		</div>
 		
 	</div>
 
@@ -155,6 +173,7 @@
 
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"> </script>
+	<script src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<script src="js/custom.js"></script>
 
 
